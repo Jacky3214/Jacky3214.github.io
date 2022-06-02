@@ -1,0 +1,65 @@
+
+:root {
+    --Defaultbg: #ffffff;
+    --white: #ffffff;
+    --black: #2e303e;
+}
+
+body {
+    background: var(--bg);
+    color: var(--fontColor);
+    font-family: helvetica;
+  }
+
+li {
+  list-style: circle;
+}
+
+.list {
+  list-style: square;
+}
+
+.btn {
+    position: absolute;
+    top: 20px;
+    left: 250px;
+    height: 20px;
+    width: 30px;
+    border-radius: 50%;
+    border: solid;
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+  }
+
+.dot{
+    position: absolute;
+    top: 3.5px;
+    left: var(--left);
+    height: 7px;
+    width: 7px;
+    border-radius: 50%;
+    border: none;
+    background-color: var(--bg);
+
+    
+}
+.light-theme {
+    --bg: var(--white);
+    --fontColor: var(--black);
+    --btnBg: var(--black);
+    --btnFontColor: var(--white);
+    --left: 3px;
+}
+  
+.dark-theme {
+    --bg: var(--black);
+    --fontColor: var(--white);
+    --btnBg: var(--white);
+    --btnFontColor: var(--black);
+    --left: 15px;
+}
+
+
+
+
+
